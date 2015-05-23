@@ -31,5 +31,5 @@ $ do nothing
 
 It'll check upstream version changes every day and publish a new package.
 
-* For Arch Linux, read [Arch Linux Guide](https://github.com/gutenye/gutpackaging/blob/master/Arch Linux Guide.md)
-* For Debian/Ubuntu, read [Debian Guide](https://github.com/gutenye/gutpackaging/blob/master/Debian Guide.md)
+* For Arch Linux, read [Arch Linux Guide](https://github.com/gutenye/gutpackaging/blob/master/Arch Linux Automatic Packaging Guide.md)
+* For Debian/Ubuntu, read [Debian Guide](https://github.com/gutenye/gutpackaging/blob/master/Debian Automatic Packaging Guide.md)
