@@ -32,4 +32,4 @@ $ do nothing
 It'll check upstream version changes and publish a package.
 
 * For Arch Linux, read [Arch Linux Guide](https://github.com/gutenye/gutpackaging/blob/master/Arch Linux Guide.md)
-* For Debian/Ubuntu, read [Debian Guide](https://github.com/gutenye/gutpackaging/blob/master/Debian Guide.md))
+* For Debian/Ubuntu, read [Debian Guide](https://github.com/gutenye/gutpackaging/blob/master/Debian Guide.md)
