@@ -21,7 +21,7 @@ $ git tag v1.0.0
 $ git push --tags
 ```
 
-It'll publish a package.
+It'll publish a new package.
 
 ### As a maintainer of a package, I want
 
@@ -29,7 +29,7 @@ It'll publish a package.
 $ do nothing
 ```
 
-It'll check upstream version changes and publish a package.
+It'll check upstream version changes every day and publish a new package.
 
 * For Arch Linux, read [Arch Linux Guide](https://github.com/gutenye/gutpackaging/blob/master/Arch Linux Guide.md)
 * For Debian/Ubuntu, read [Debian Guide](https://github.com/gutenye/gutpackaging/blob/master/Debian Guide.md)
