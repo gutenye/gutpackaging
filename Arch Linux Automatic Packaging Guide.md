@@ -3,9 +3,9 @@ As Author of a Project
 
 You can find an example at [here](https://github.com/gutenye/gutbackup)
 
-1. Install [drone](https://github.com/drone/drone)
+1\. Install [drone](https://github.com/drone/drone)
 
-2. Create .drone.yml
+2\. Create .drone.yml
 
 ```
 image: gutenye/archlinux-devel
@@ -16,7 +16,7 @@ deploy:
       - su docker -c 'cd misc/aur && gutaur publish $(cat ../../VERSION)'
 ```
 
-3. Setup Environment Variable
+3\. Setup Environment Variable
 
 ```
 AUR_USERNAME=x
@@ -30,22 +30,22 @@ You can find an example at [here](https://github.com/gutenye/aurs)
 
 **If you're using Arch Linux**
 
-1. Install gutaur
+1\. Install gutaur
 
 ```
 $ pacaur -S gutaur
 ```
 
-2. Put PKGBUILDs into /app/aurs
+2\. Put PKGBUILDs into /app/aurs
 
-3. Setup Environment Variable
+3\. Setup Environment Variable
 
 ```
 AUR_USERNAME=x
 AUR_PASSWORD=y
 ```
 
-4. Start timer
+4\. Start timer
 
 ```
 # systemctl start gutaur-autopublish.timer
@@ -54,17 +54,17 @@ AUR_PASSWORD=y
 
 **If you're using Ubuntu Server**
 
-1. Install docker
+1\. Install docker
 
-2. Prepare
+2\. Prepare
 
 ```
 docker pull gutenye/archlinux-autopublish
 ```
 
-3. Download [gutaur-autopublish.{service,timer}](x) to /etc/systemd/system
+3\. Download [gutaur-autopublish.{service,timer}](x) to /etc/systemd/system
 
-4. Start timer
+4\. Start timer
 
 ```
 # systemctl start gutaur-autopublish.timer
