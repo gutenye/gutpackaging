@@ -54,8 +54,8 @@ AUR_PASSWORD=y
 4\. Start timer
 
 ```
-# systemctl start gutaur-autopublish.timer
-# systemctl enable gutaur-autopublish.timer
+# systemctl start gutaur-autopublish@<user>.timer
+# systemctl enable gutaur-autopublish@<user>.timer
 ```
 
 **If you're using Ubuntu Server**
@@ -68,11 +68,11 @@ AUR_PASSWORD=y
 docker pull gutenye/archlinux-autopublish
 ```
 
-3\. Download and edit [gutaur-autopublish.{service,timer}](https://github.com/gutenye/gutaur/blob/master/misc/docker) to /etc/systemd/system
+3\. Download and edit [systemd-units](https://github.com/gutenye/gutaur/blob/master/misc/systemd) to /etc/systemd/system
 
-4\. Start timer
+4\. Start and enable timer
 
 ```
-# systemctl start gutaur-autopublish.timer
-# systemctl enable gutaut-autopublish.timer
+# systemctl start gutaur-autopublish-docker.timer
+# systemctl enable gutaut-autopublish-docker.timer
 ```

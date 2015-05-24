@@ -19,7 +19,7 @@ $ aptly publish repo default
 3\. Use Github as the public APT server
 
 ```
-$ gutdeb upload
+...
 ```
 
 As Author of a Project
@@ -94,9 +94,9 @@ Set git configuration
   $ git config --global user.name "Your Name"
 ```
 
-4\. Start timer
+4\. Start and enable timer
 
 ```
-# systemctl start gutdeb-autopublish.timer
-# systemctl enable gutdeb-autopublish.timer
+# systemctl start gutdeb-autopublish@<user>.timer
+# systemctl enable gutdeb-autopublish@<user>.timer
 ```
