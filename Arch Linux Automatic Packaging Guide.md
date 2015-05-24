@@ -28,6 +28,12 @@ As Maintainer of a Package
 
 You can find an example at [here](https://github.com/gutenye/aurs)
 
+Define a `_watch` in PKGBUILD
+
+```
+_watch=("https://github.com/gutenye/gutbackup/tags" "v([-.\d]+).tar.gz")
+```
+
 **If you're using Arch Linux**
 
 1\. Install gutaur
@@ -62,7 +68,7 @@ AUR_PASSWORD=y
 docker pull gutenye/archlinux-autopublish
 ```
 
-3\. Download [gutaur-autopublish.{service,timer}](x) to /etc/systemd/system
+3\. Download and edit [gutaur-autopublish.{service,timer}](https://github.com/gutenye/gutaur/blob/master/misc/docker) to /etc/systemd/system
 
 4\. Start timer
 

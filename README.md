@@ -35,3 +35,5 @@ It'll check upstream version changes every day and publish a new package.
 
 * For Arch Linux, read [Arch Linux Automatic Packaging Guide](https://github.com/gutenye/gutpackaging/blob/master/Arch Linux Automatic Packaging Guide.md)
 * For Debian/Ubuntu, read [Debian Automatic Packaging Guide](https://github.com/gutenye/gutpackaging/blob/master/Debian Automatic Packaging Guide.md)
+
+Also read [wiki](https://github.com/gutenye/gutpackaing/wiki] for more information.
